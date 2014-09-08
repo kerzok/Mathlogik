@@ -1,0 +1,1 @@
+@y@xP(x,y)->@xP(x,y+y*y+g(f(x)+y*y)*y)

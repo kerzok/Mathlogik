@@ -1,0 +1,6 @@
+|-(f(h(x,y),g(x,y)))->(f(h(x,y),g(x,y)))
+f(h(x,y),g(x,y))->f(h(x,y),g(x,y))->f(h(x,y),g(x,y))
+(f(h(x,y),g(x,y))->f(h(x,y),g(x,y))->f(h(x,y),g(x,y)))->(f(h(x,y),g(x,y))->(f(h(x,y),g(x,y))->f(h(x,y),g(x,y)))->f(h(x,y),g(x,y)))->f(h(x,y),g(x,y))->f(h(x,y),g(x,y))
+(f(h(x,y),g(x,y))->(f(h(x,y),g(x,y))->f(h(x,y),g(x,y)))->f(h(x,y),g(x,y)))->f(h(x,y),g(x,y))->f(h(x,y),g(x,y))
+f(h(x,y),g(x,y))->(f(h(x,y),g(x,y))->f(h(x,y),g(x,y)))->f(h(x,y),g(x,y))
+f(h(x,y),g(x,y))->f(h(x,y),g(x,y))

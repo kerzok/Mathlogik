@@ -1,0 +1,15 @@
+@x123P(z,F(x123+y),x123)->P(z,F(y+y),y)
+
+@x(@xP(x)&Q(x))->@xP(x)&Q(x)
+@x(@xP(x)&Q(x))->@x(@xP(x)&Q(x))
+
+@x(P(x)&@yQ(y))->P(x)&@yQ(y)
+
+@xP(x)->P(y+0)
+
+@x2(P(z1,x2)&@yQ(z,y))->P(z1,x2+y+z)&@yQ(z,y)
+@x2(P(z1,x2)&@yQ(z,y))->P(z,x2+y+z)&@yQ(z,y)
+
+@x2(P(z1,x2)&@yQ(z,x2))->P(z1,x2+y+z)&@yQ(z,x2+y+z)
+
+@y@x1P2(y,y)->@x1P2(x1,x1)

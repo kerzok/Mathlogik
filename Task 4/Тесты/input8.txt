@@ -1,0 +1,2 @@
+A|-?yF(y,y)
+@x?yF(x,y)->?yF(y,y)
